@@ -46,7 +46,7 @@ const confirm = [
         name: 'adding',
         message: 'Input next employee:',
     },
-]:
+];
 
 
 // After the user has input all employees desired, call the `render` function (required
