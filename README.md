@@ -14,23 +14,22 @@
     - [Testing-Instructions](#Testing-Instructions)
     - [Feedback](#Feedback)
     - [License](#License)
-    
-  ===========================================
-    ## Installation-Instructions
-    Download all files and unzip the package. Open terminal within the project folder and run NPM install. To run the application then run node index. 
-    ## Usage-Information
-    Used to build a template for a cohort.
-    ## Contribution-Information
-    undefined
-    ## Testing-Instructions
+
+   ## Installation-Instructions
+   Download all files and unzip the package. Open terminal within the project folder and run NPM install. To run the application then run node index. 
+   ## Usage-Information
+   Used to build a template for a cohort.
+   ## Contribution-Information
+   undefined
+   ## Testing-Instructions
  
     
-    ## Feedback 
-    For questions or information about this README generator, I can be reached at sarahquinnphotography@gmail.com 
+   ## Feedback 
+   For questions or information about this README generator, I can be reached at sarahquinnphotography@gmail.com 
     Find me on GitHub here: https://www.github.com/SQuinn44
     
-    ## License
-    Copyright (c) [year] [fullname]
+   ## License
+   Copyright (c) [year] [fullname]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
