@@ -2,14 +2,12 @@
    # Title Team Profile Generator
     
    [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-   
-  ===========================================
-    ## Description
-    This is a command line application that is a software engineering team generator. Users are prompted for information about their teams. All tests have passed.
-    
-  ===========================================
-    ## Table of Contents
-    - [Description](#Description)
+
+   ## Description
+   This is a command line application that is a software engineering team generator. Users are prompted for information about their teams. All tests have passed.
+
+   ## Table of Contents
+   - [Description](#Description)
     - [Installation-Instructions](#Installation-Instructions)
     - [Contribution-Information](#Contribution-Information)
     - [Usage-Information](#Usage-Information)
