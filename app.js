@@ -28,6 +28,19 @@ const questions = [
     },
 ];
 
+//Questions for each job level
+const questionForManager = [
+    { name: 'officeNumber', message: "Office Number:" },
+];
+
+const questionForIntern = [
+    { name: 'school', message: "School or University:" },
+];
+
+const questionForEngineer = [
+    { name: 'github', message: "GitHub Account:" },
+];
+
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
 // generate and return a block of HTML including templated divs for each employee!
