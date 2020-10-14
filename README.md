@@ -1,9 +1,11 @@
 
     ## Title Team Profile Generator
    [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+   
   ===========================================
     ## Description
     This is a command line application that is a software engineering team generator. Users are prompted for information about their teams. All tests have passed.
+    
   ===========================================
     ## Table of Contents
     - [Description](#Description)
@@ -13,6 +15,7 @@
     - [Testing-Instructions](#Testing-Instructions)
     - [Feedback](#Feedback)
     - [License](#License)
+    
   ===========================================
     ## Installation-Instructions
     Download all files and unzip the package. Open terminal within the project folder and run NPM install. To run the application then run node index. 
@@ -21,6 +24,7 @@
     ## Contribution-Information
     undefined
     ## Testing-Instructions
+ 
     
     ## Feedback 
     For questions or information about this README generator, I can be reached at sarahquinnphotography@gmail.com 
