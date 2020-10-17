@@ -46,7 +46,7 @@ const confirm = [
         name: 'adding',
         message: 'Input next employee:',
     },
-,
+];
 
 // Adding more employees
 const init = async () => {
@@ -54,8 +54,28 @@ const init = async () => {
     let addMore = true;
     while (addMore) {
         const { name, id, email, role } = await inquirer.prompt(questions);
+       
+//create objects
+        if (role === 'Manager') {
+            const { officeNumber } = await inquirer.prompt(questionForManager);
+        employees.push(new Manager(name, id, email, officeNumber));
+        } 
+
+        else if (role === 'Intern') {
+            const { school } = await inquirer.prompt(questionForIntern);
+        employees.push(new Intern(name, id, email, school));
+        }
+
+        else (role === 'Engineer') 
+            const { github } = await inquirer.prompt(questionForEngineer);
+            employees.push(new Engineer(name, id, email, github));
+        }
+
+//further input
+        const { adding } = await inquirer.prompt(confirm);
+
+        addMore = adding;
     }
-}
 
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
