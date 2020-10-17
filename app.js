@@ -20,7 +20,7 @@ const render = require("./lib/htmlRenderer");
 const questions = [
     { name: 'name', message: "Employee Name: "},
     { name: 'id', message: "Employee ID:"},
-    { name: 'emial', message: "Employee Email:" },
+    { name: 'email', message: "Employee Email:" },
     { type: 'list',
         name: 'role',
         message: "Choose Employee Role",
@@ -46,8 +46,16 @@ const confirm = [
         name: 'adding',
         message: 'Input next employee:',
     },
-];
+,
 
+// Adding more employees
+const init = async () => {
+    const employees = [];
+    let addMore = true;
+    while (addMore) {
+        const { name, id, email, role } = await inquirer.prompt(questions);
+    }
+}
 
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
